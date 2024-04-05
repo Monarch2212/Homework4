@@ -63,14 +63,11 @@ char caesar ( char ch, int shift) {
 int main() {
     cout << "PROBLEM 1\n";
     int N ;
-    cout<< " Enter the number for 'N': " ;
     cin>> N;
     cout << countPrimesUntilN (N) << endl;
 
     cout << "PROBLEM 2\n";
     int number_2;
-    cout << " Enter your number: " ;
-
     cin >> number_2;
 
     int x= number_2 ;
@@ -89,13 +86,11 @@ int main() {
     }
     cout << "PROBLEM 3\n";
     int N_3 ;
-    cout << " Enter the number for 'N_3': ";
     cin >> N_3;
     cout << tribonacci( N_3) << endl;
 
     cout << "PROBLEM 4\n";
     int N_4 ;
-    cout << " Enter the number for 'N_4': " ;
     cin >> N_4;
     vector<vector<int > > solutions;
     for (int x = -10; x <= 10; ++x) {
@@ -118,11 +113,8 @@ int main() {
     cout << "PROBLEM 5\n";
     char character;
     int shiftfactor , rounds ;
-    cout << " Enter the character to be encrypted: " ;
     cin >> character;
-    cout << " Enter the Caesar cipher shift factor: " ;
     cin>> shiftfactor ;
-    cout << " Enter the number of encyption rounds: " ;
     cin >> rounds ;
     for ( int round=1 ; round <=rounds ; ++round ) {
         cout << "Round "<< round;
