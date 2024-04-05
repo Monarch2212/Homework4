@@ -79,7 +79,7 @@ int main() {
         cout << "Invalid input " << endl;
     }
     
-    /*cout << "PROBLEM 3\n";
+    cout << "PROBLEM 3\n";
     int n;
     cin >> n;
     cout << tribonacci(n) << endl; 
@@ -112,6 +112,6 @@ int main() {
     for (int i = 0; i < rounds; ++i) {
         ch = caesarCipher(ch, shiftFactor);
     }
-    cout << ch << endl;*/
+    cout << ch << endl;
     return 0;
 }
